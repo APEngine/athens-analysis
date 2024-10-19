@@ -1,10 +1,12 @@
+// Import React own libraries
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Navbar from '/src/components/Navbar';
+
+// Import Own Components
+import { Navbar } from '/src/components/navbar';
 import { Home } from './pages/home/index';
 import { Analysis } from './pages/analysis/index';
 import Beams from "./pages/analysis/Beams";
-// import Contacto from './Contacto';
 
 const App = () => {
   return (
