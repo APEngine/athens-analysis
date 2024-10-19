@@ -1,6 +1,6 @@
-// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Navbar from '/src/components/Navbar';
 import { Home } from './pages/home/index';
 import { Analysis } from './pages/analysis/index';
 import Beams from "./pages/analysis/Beams";
@@ -8,33 +8,20 @@ import Beams from "./pages/analysis/Beams";
 
 const App = () => {
   return (
-    <Router>
-      <nav>
-        <ul>
-          <li>
-            <b>Athens Analysis</b>
-          </li>
+    <div className="font-sans">
 
-          <li>
-            <Link to="/">Inicio</Link>
-          </li>
-          <li>
-            <Link to="/analisis">Análisis</Link>
-          </li>
-          <li>
-            <Link to="/contacto">Contacto</Link>
-          </li>
-        </ul>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/analisis" element={<Analysis />} >
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/analisis" element={<Analysis />} >
 
-          <Route path="vigas" element={<Beams />} />
-        </Route>
-        {/* <Route path="/contacto" element={<Contacto />} /> */}
-      </Routes>
-    </Router>
+            <Route path="vigas" element={<Beams />} />
+          </Route>
+          {/* <Route path="/contacto" element={<Contacto />} /> */}
+        </Routes>
+      </Router>
+    </div>
   );
 };
 
