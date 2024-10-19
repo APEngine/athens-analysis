@@ -10,7 +10,7 @@ import Beams from "./pages/analysis/Beams";
 
 const App = () => {
   return (
-    <div className="font-sans">
+    <div className="font-sans bg-black-background text-white-300 min-h-screen w-full">
 
       <Router>
         <Navbar />
