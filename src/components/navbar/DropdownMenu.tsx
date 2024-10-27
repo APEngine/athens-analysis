@@ -12,7 +12,6 @@ import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 interface DropdownOption {
     title: string;
     link: string;
-    icon: React.ReactNode;
 }
 
 // Define the props that the DropdownMenu component will accept
@@ -22,14 +21,14 @@ interface DropdownOption {
 // - icon: the icon displayed next to the title on the button
 interface DropdownMenuProps {
     title: string;
-    options: Array<DropdownOption>;
-    width: number;
+    options?: Array<DropdownOption>;
+    width?: string;
     icon: React.ReactNode;
 }
 
 // DropdownMenu component
 // Description: This component displays a button with a dropdown menu that opens when hovered or clicked
-const DropdownMenu: React.FC<DropdownMenuProps> = ({ title, icon, options, width }) => {
+const DropdownMenu: React.FC<DropdownMenuProps> = ({ title, icon, options = [], width = "" }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -40,7 +39,7 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ title, icon, options, width
         >
             {/* Dropdown button that toggles the menu on click */}
             <button
-                className="hover:bg-blue transition-colors duration-300 w-32 h-16 flex items-center justify-center"
+                className="px-6 w-fit hover:bg-blue transition-colors duration-300 h-12 flex items-center justify-center"
                 aria-haspopup="true"                  // Accessibility: Indicates this button opens a menu
                 aria-expanded={isOpen}                // Accessibility: Tells screen readers if the menu is open
                 onClick={() => setIsOpen(!isOpen)}    // Toggles the menu open/close on click
@@ -61,14 +60,13 @@ const DropdownMenu: React.FC<DropdownMenuProps> = ({ title, icon, options, width
                         <li
                             role="menuitem"
                             key={index}
-                            className="bg-slate-800 flex flex-row align-center justify-center animate-fade-in"
+                            className="bg-black-menu flex flex-row align-center justify-center animate-fade-in"
                             style={{ animationDelay: `${index * 0.2}s` }}
                         >
                             <Link
                                 to={option.link}
                                 className="display-arrow w-full flex flex-row justify-flex-start align-center block p-4 hover:bg-slate-700"
                             >
-                                {option.icon}
                                 <p className="px-2">{option.title}</p>
                                 <span className="arrow text-white">
                                     <ArrowOutwardIcon sx={{ scale: "90%" }} />
