@@ -10,23 +10,45 @@ import FunctionsIcon from '@mui/icons-material/Functions';
 // Import Own Components
 import DropdownMenu from './DropdownMenu';
 
+// Component's Interfaces
+interface AnalysisElement {
+    title: string;         // Title of the element (string)
+    link: string;          // Link associated with the element (string)
+}
+
+const analysisElement: AnalysisElement[] = [
+    { title: "Diseño de Vigas", link: "inventory" },
+];
+
 const Navbar: React.FC = () => {
     return (
-        <nav className="bg-black-menu mb-5" role="navigation" aria-label="Main navigation">
-            <div className="flex container mx-auto justify-between items-center h-16">
-                <h1 className='font-semibold text-white-300'>Athens Analysis</h1>
-                <ul className="flex space-x-10 text-white-300">
-                    <li className='hover:bg-blue transition-colors duration-300 w-32 h-16 flex items-center justify-center'>
-                        <Link to="/"><HomeIcon />Inicio</Link>
-                    </li>
-                    <li>
-                        <DropdownMenu title="Análisis" icon={<FunctionsIcon />} />
-                    </li>
-                    <li className='hover:bg-blue transition-colors duration-300 w-40 h-16 flex items-center justify-center'>
-                        <Link to="/settings"><SettingsIcon />Configuración</Link>
-                    </li>
-                </ul>
-            </div>
+        <nav className="flex flex-row justify-between bg-black-menu" role="navigation" aria-label="Main navigation">
+            <h1>Athens Analysis</h1>
+            <ul className="flex flex-row w-fit justify-between h-12">
+                <li className="text-white">
+                    <DropdownMenu
+                        title={"Página Principal"}
+                        icon={<HomeIcon />}
+                        width={"w-64"}
+                    />
+                </li>
+                <li className="text-white">
+                    <DropdownMenu
+                        title={"Análisis"}
+                        icon={<FunctionsIcon />}
+                        options={analysisElement}
+                        width={"w-48"}
+                    />
+                </li>
+                <li className="text-white w-12 mr-1 flex flex-row align-center justify-center">
+                    <button className="rotated-icon">
+                        <Link to="/settings">
+                        <SettingsIcon />
+                        </Link>
+                    </button>
+
+                </li>
+            </ul>
         </nav>
     );
 };
