@@ -24,7 +24,6 @@ Athens Analysis aims to provide a lightweight, accessible tool for basic beam de
 - **React** (Frontend UI)
 - **Tailwind CSS** (Styling)
 - **TypeScript** (Code safety)
-- **Framer Motion** (Animations)
 - **Custom structural models** (Concrete Beam, Load Combinations, etc.)
 
 ---
@@ -39,10 +38,13 @@ Athens Analysis aims to provide a lightweight, accessible tool for basic beam de
 
 - [x] Base model for rectangular beam sections
 - [x] Load combination engine
-- [ ] Shear force verification
+- [ ] Structural diagrams or charts
+- [ ] Shear strength verification
 - [ ] Support for T and L sections
-- [ ] PDF export of results
+- [ ] Export design report to PDF
 - [ ] Mobile support
+- [ ] Support for concrete columns
+- [ ] Support for steel structural elements
 
 ---
 
