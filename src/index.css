@@ -1,0 +1,216 @@
+/* ------------------ Google Fonts ------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+/* ------------------ Tailwind Base ------------------ */
+@import "tailwindcss";
+
+/* ------------------ Root Variables ------------------ */
+:root {
+  /* Accent Colors */
+  --accent-primary-color: #8e8e8e;
+  --highlighted-accent-color: #d30202;
+
+  /* Text Colors */
+  --main-text-color: #0f0f0f;
+
+  /* Backgrounds */
+  --bg-primary-color: #bfbfbf;
+  --bg-secondary-color: #f0f0f0;
+  --disabled-color: #a0a0a0;
+  --transparent-main: #888;
+  --main-contrast-color: #ffffff;
+
+  /* Radius */
+  --border-radius: 0.25rem;
+}
+
+/* ------------------ Base Styles ------------------ */
+/* * {
+  color: var(--main-text-color);
+} */
+body {
+  background-color: #e5e5ef;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* Hide Scrollbars (Cross-Browser) */
+body {
+  scrollbar-width: none; /* Firefox */
+}
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Edge, Safari */
+}
+/* @layer base {
+  body {
+    @apply font-josefin;
+  }
+} */
+/* ------------------ Tailwind Components ------------------ */
+@layer components {
+  body {
+    @apply font-["JosefinSans"];
+  }
+  /* Typography */
+  .josefin-text {
+    @apply font-["JosefinSans"];
+  }
+
+  .text-with-same-bgc {
+    @apply text-[var(--disabled-color)];
+  }
+
+  /* Buttons */
+  .primary-button {
+    @apply border-[.15rem] border-[#303030] text-[#303030] p-2 rounded-lg;
+  }
+
+  .primary-button:hover {
+    @apply bg-[#202020] text-white;
+  }
+
+  .navbar-button {
+    @apply bg-[var(--main-contrast-color)] p-2 w-full;
+  }
+
+  .navbar-button:hover {
+    @apply bg-[var(--accent-primary-color)];
+  }
+
+  .simple-button {
+    @apply border-[.15rem] border-[#303030] text-[#303030] p-2 rounded-lg;
+  }
+  .simple-button > svg {
+    @apply ml-2 z-0;
+  }
+  .simple-button:hover {
+    @apply bg-[#202020] text-[#FFFFFF] cursor-pointer;
+  }
+
+  /* Inputs */
+  .simple-input {
+    @apply p-[0.15rem] pl-3 outline-0 box-border text-[#0f0f0f] bg-white min-w-[6rem] border-b-[0.1rem] border-[#888];
+  }
+
+  .disabled-input {
+    @apply pl-3 py-1 outline-0 box-border bg-[var(--disabled-color)];
+  }
+
+  .entry-input {
+    @apply p-1.5 outline-0 box-border;
+  }
+
+  .entry-input:focus {
+    @apply border-b-2 border-l-4 border-[var(--accent-primary-color)];
+  }
+
+  /* Selects */
+  .navigator-select:hover {
+    @apply z-40 bg-[var(--highlighted-accent-color)];
+  }
+
+  .navigator-select-item {
+    @apply z-40 bg-[var(--highlighted-accent-color)];
+  }
+
+  .navigator-select-item:hover {
+    @apply z-40 bg-[var(--accent-primary-color)];
+  }
+
+  /* Layout Containers */
+
+  .left-navigator {
+    @apply bg-[var(--bg-secondary-color)] flex flex-col;
+  }
+
+  .local-window {
+    @apply p-2 text-black;
+  }
+
+  /* Icon SVG Styles */
+  .svg-button * {
+    @apply text-white;
+  }
+}
+
+/* ------------------ Animations ------------------ */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fade-in 0.5s ease forwards;
+}
+
+@keyframes rotate-icon {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  75% {
+    transform: rotate(135deg);
+  }
+}
+
+.rotated-icon:hover {
+  animation: rotate-icon 1s ease forwards;
+}
+
+.display-arrow .arrow {
+  display: none;
+}
+.display-arrow:hover .arrow {
+  display: block;
+}
+
+@keyframes highlight-swipe {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
+
+.highlight-swipe {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 0, 0.4) 0%,
+    rgba(0, 255, 0, 0.4) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: highlight-swipe 0.8s ease-out;
+}
+
+@keyframes rowHighlightSwipe {
+  0% {
+    background-position: -100% 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
+
+.row-highlight-animated {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 100, 0.4) 0%,
+    rgba(255, 255, 100, 0.4) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 200% 100%;
+  animation: rowHighlightSwipe 0.7s ease-out;
+}

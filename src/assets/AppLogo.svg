@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210.78012mm"
+   height="209.17128mm"
+   viewBox="0 0 210.78012 209.17128"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="seccion_transversal.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.6845679"
+     inkscape:cx="157.68471"
+     inkscape:cy="1103.5215"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="62.422516"
+       y="1095.9222"
+       width="138.95795"
+       height="17.369736"
+       id="rect1290" />
+    <rect
+       x="62.422516"
+       y="1095.9222"
+       width="138.95795"
+       height="17.369736"
+       id="rect1290-2" />
+    <rect
+       x="62.422516"
+       y="1095.9222"
+       width="138.95795"
+       height="17.369736"
+       id="rect1290-2-1" />
+    <rect
+       x="62.422516"
+       y="1095.9222"
+       width="138.95795"
+       height="17.369736"
+       id="rect1290-2-1-2" />
+  </defs>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-4.7087847,-85.588628)">
+    <rect
+       style="fill:#9a9996;stroke:#ffffff;stroke-width:0;stroke-dashoffset:212.447"
+       id="rect234"
+       width="108.08958"
+       height="167.20108"
+       x="39.42112"
+       y="113.45551" />
+    <path
+       style="fill:#c0bfbc;stroke:#ffffff;stroke-width:0;stroke-dashoffset:212.447"
+       d="M 93.46591,197.05603 H 215.48892"
+       id="path407" />
+    <rect
+       style="fill:#ed333b;stroke:#ffffff;stroke-width:0;stroke-dashoffset:212.447"
+       id="rect530"
+       width="102.17843"
+       height="2.5333674"
+       x="96.421486"
+       y="197.90045" />
+    <rect
+       style="fill:#1a5fb4;stroke:#ffffff;stroke-width:0;stroke-dashoffset:212.447"
+       id="rect530-6"
+       width="102.17843"
+       height="2.5333674"
+       x="96.988701"
+       y="-97.688171"
+       transform="rotate(90)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ed333b;stroke:#ffffff;stroke-width:0;stroke-dashoffset:212.447"
+       id="path636"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="78.414894"
+       sodipodi:cy="246.15958"
+       sodipodi:r1="2.5851064"
+       sodipodi:r2="1.2925532"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="-3.469447e-18"
+       inkscape:randomized="0"
+       d="m 81,246.15958 -3.877659,2.23876 v -4.47753 z"
+       inkscape:transform-center-x="-1.9000132"
+       transform="matrix(2.9399366,0,0,2.9399366,-28.134862,-524.52643)" />
+    <path
+       sodipodi:type="star"
+       style="fill:#1a5fb4;stroke:#ffffff;stroke-width:0;stroke-dashoffset:212.447"
+       id="path636-5"
+       inkscape:flatsided="true"
+       sodipodi:sides="3"
+       sodipodi:cx="78.414894"
+       sodipodi:cy="246.15958"
+       sodipodi:r1="2.5851064"
+       sodipodi:r2="1.2925532"
+       sodipodi:arg1="0"
+       sodipodi:arg2="1.0471976"
+       inkscape:rounded="-3.469447e-18"
+       inkscape:randomized="0"
+       d="m 81,246.15958 -3.877659,2.23876 v -4.47753 z"
+       inkscape:transform-center-x="7.990055e-06"
+       inkscape:transform-center-y="-1.9000153"
+       transform="matrix(0,-2.9399366,2.9399366,0,-627.27206,323.7235)" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.7778582,0,0,0.7778582,-8.6358297,-568.98395)"
+       id="text1288"
+       style="font-weight:bold;font-size:10.6667px;font-family:Rockwell;-inkscape-font-specification:'Rockwell, Bold';font-variant-caps:small-caps;text-align:center;white-space:pre;shape-inside:url(#rect1290);fill:#1a5fb4;stroke:#ffffff;stroke-width:0;stroke-dashoffset:212.447"><tspan
+         x="110.15338"
+         y="1107.7047"
+         id="tspan345"><tspan
+           style="font-size:13.3333px;fill:#000000"
+           id="tspan343">b [cm]</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.7778582,0,0,0.7778582,-81.258515,-666.58312)"
+       id="text1288-1"
+       style="font-weight:bold;font-size:10.6667px;font-family:Rockwell;-inkscape-font-specification:'Rockwell, Bold';font-variant-caps:small-caps;text-align:center;white-space:pre;shape-inside:url(#rect1290-2);fill:#1a5fb4;stroke:#ffffff;stroke-width:0;stroke-dashoffset:212.447"><tspan
+         x="110.15338"
+         y="1107.7047"
+         id="tspan349"><tspan
+           style="font-size:13.3333px;fill:#000000"
+           id="tspan347">h [cm]</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.7778582,0,0,0.7778582,92.140469,-674.73625)"
+       id="text1288-1-5"
+       style="font-weight:bold;font-size:10.6667px;font-family:Rockwell;-inkscape-font-specification:'Rockwell, Bold';font-variant-caps:small-caps;text-align:center;white-space:pre;shape-inside:url(#rect1290-2-1);fill:#1a5fb4;stroke:#ffffff;stroke-width:0;stroke-dashoffset:212.447"><tspan
+         x="114.67159"
+         y="1107.7047"
+         id="tspan353"><tspan
+           style="font-size:13.3333px;fill:#ed333b"
+           id="tspan351">Eje X</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.7778582,0,0,0.7778582,-25.590665,-755.36416)"
+       id="text1288-1-5-0"
+       style="font-weight:bold;font-size:10.6667px;font-family:Rockwell;-inkscape-font-specification:'Rockwell, Bold';font-variant-caps:small-caps;text-align:center;white-space:pre;shape-inside:url(#rect1290-2-1-2);fill:#1a5fb4;stroke:#ffffff;stroke-width:0;stroke-dashoffset:212.447"><tspan
+         x="115.78487"
+         y="1107.7047"
+         id="tspan357"><tspan
+           style="font-size:13.3333px"
+           id="tspan355">Eje Y</tspan></tspan></text>
+    <path
+       style="fill:#9a9996;stroke:#ffffff;stroke-width:0;stroke-dashoffset:212.447"
+       d="m 160.17745,113.4555 c 30.4002,0 30.4002,0 30.4002,0"
+       id="path465" />
+  </g>
+</svg>
