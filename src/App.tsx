@@ -6,7 +6,6 @@
  * It handles client-side routing and layout composition.
  */
 
-// import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import './App.css'
 
