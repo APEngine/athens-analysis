@@ -28,7 +28,6 @@ interface ConcreteBeamSectionModalProps {
 const ConcreteBeamSectionModal: React.FC<ConcreteBeamSectionModalProps> = ({
     isOpen,
     onClose,
-    onConfirm,
     beamDimensions,
     setBeamDimensions
 }) => {

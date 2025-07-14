@@ -32,7 +32,6 @@ interface LoadsModalProps {
 const LoadsModal: React.FC<LoadsModalProps> = ({
     isOpen,
     onClose,
-    onConfirm,
     loads,
     setLoads
 }) => {

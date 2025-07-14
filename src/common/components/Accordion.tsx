@@ -1,5 +1,6 @@
 // Import section
-import React, { useState, ReactNode } from "react";
+import React, { useState } from "react";
+import type { ReactNode } from 'react';
 // Import MUI Icons
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import ExpandLessIcon from '@mui/icons-material/ExpandLess';

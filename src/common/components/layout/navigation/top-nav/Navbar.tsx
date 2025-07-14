@@ -4,10 +4,8 @@ import { Link } from 'react-router-dom';
 
 // Import Material UI Icons
 import HomeIcon from '@mui/icons-material/Home';
-import SettingsIcon from '@mui/icons-material/Settings';
 import FunctionsIcon from '@mui/icons-material/Functions';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 // Import Own Components
 import DropdownMenu from './DropdownMenu';

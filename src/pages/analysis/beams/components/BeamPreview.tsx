@@ -5,7 +5,7 @@
 // Import React
 import React from 'react';
 // Import Own Types
-import type { BeamDimensions } from '@/models/types';
+import type { BeamDimensions } from '@/models/structuralElements/concrete/beams';
 
 interface BeamPreviewProps {
   beamDimensions: BeamDimensions;
